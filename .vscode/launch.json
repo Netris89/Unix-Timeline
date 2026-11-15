@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build and open Unix-Timeline",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "code --reuse-window \"${workspaceFolder}/dist/unxt.svg\"; exit",
+            "preLaunchTask": "Build",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
