@@ -50,7 +50,7 @@ dist() {
     command -v tar  >/dev/null || die "tar not found"
     command -v gzip >/dev/null || die "gzip not found"
 
-    tar cf "dist/$PROJNAME$VERS.tar" "$PROJNAME.csv" "$PROJNAME.conf" CHANGELOG README.md LICENSE images build.sh CONTRIBUTING
+    tar cf "dist/$PROJNAME$VERS.tar" "$PROJNAME.csv" "$PROJNAME.conf" CHANGELOG README.md LICENSE images build.sh
     gzip -f "dist/$PROJNAME$VERS.tar"
 
     msg "Generated dist/$PROJNAME$VERS.tar.gz"
