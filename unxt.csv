@@ -33,6 +33,7 @@
 # HP-UX is in fact 2 version of the same OS developped in parallel up until 7. when HP decided to converge them into one version. This is why the version seem to jump all over the place or repeat themselves
 "N","HP-UX","#00a1dc","System V","1983","2025.12.31",,"https://en.wikipedia.org/wiki/HP-UX","2.0","1983.08",,"5.0","1985",,"1.0","1986.11.20",,"6.0","1987",,"3.0","1988",,"7.0","1990",,"8.0","1991.01",,"9.0","1992.07",,"10.0","1995",,"11.0","1997",,,,,,,,,,,,,
 "N","UNICOS","#59c8ca","System V","1984","2001.11",,"https://en.wikipedia.org/wiki/UNICOS",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"N","386/ix","#040404","System V","1985","2006.07.23",,"https://en.wikipedia.org/wiki/Interactive_Systems_Corporation",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # AIX 3.1 used instead of 3.0 because 3.0 was early access.
 "N","AIX","#6fdc8c","System V","1986.02",,,"https://en.wikipedia.org/wiki/AIX","2.0","1987",,"3.1","1990.02",,"4.1","1994.08.12",,"5L 5.1","2001.05.04",,"V6.1","2007.11.09",,"V7.1","2010.09.10",,"V7.2","2015.0.05",,"V7.3","2021.12.10",,,,,,,,,,,,,
 "N","A/UX","#6fdc8c","System V","1988.02","1995",,"https://en.wikipedia.org/wiki/A/UX","2.0","1990",,"3.0","1991.11",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
