@@ -34,7 +34,7 @@
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "# HP-UX is in fact 2 version of the same OS developped in parallel up until 7. when HP decided to converge them into one version. This is why the version seem to jump all over the place or repeat themselves",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "N","HP-UX","#00a1dc","System V","1983","2025.12.31",,"https://en.wikipedia.org/wiki/HP-UX","2.0","1983.08",,"5.0","1985",,"1.0","1986.11.20",,"6.0","1987",,"3.0","1988",,"7.0","1990",,"8.0","1991.01",,"9.0","1992.07",,"10.0","1995",,"11.0","1997",,,,,,,,,,,,,,
-"N","UNICOS","#59c8ca","System V","1984","2001.11",,"https://en.wikipedia.org/wiki/UNICOS",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"N","UNICOS","#59c8ca","System V","1984","2001.11",,"https://en.wikipedia.org/wiki/UNICOS","2.0","1986.12.19",,"3.0","1987.09.25",,"4.0","1988.07.15",,"5.0","1989.05.15",,"6.0","1991.02.14",,"7.0","1992.10.29",,"8.0","1994.03.11",,"9.0","1995.09.21",,"10.0","1997.11.19",,,,,,,,,,,,,,,,,
 "N","SINIX","#000000","System V","1984","2001.11",,"https://en.wikipedia.org/wiki/SINIX","2.0","1987",,"5.20","1990",,"5.40","1992",,"5.42","1994.12",,"ReliantUnix 5.43","1995",,"5.44","1997",,"5.45","2000",,,,,,,,,,,,,,,,,,,,,,,
 "N","386/ix","#040404","System V","1985","2006.07.23",,"https://en.wikipedia.org/wiki/Interactive_Systems_Corporation",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "N","DG/UX","#e72d2c","System V","1985","2001.04",,"https://en.wikipedia.org/wiki/DG/UX",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
