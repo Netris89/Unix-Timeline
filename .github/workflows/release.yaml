@@ -1,0 +1,68 @@
+name: Create release
+
+permissions:
+  contents: write
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential librsvg2-bin
+
+      - name: Build & install GNUClad
+        run: |
+          git clone https://github.com/FabioLolix/gnuclad.git
+          cd gnuclad
+          sh configure
+          make
+          sudo make install
+
+      - name: Build dist
+        run: sh build.sh
+
+      - name: Extract changelog
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          VERSION="${GITHUB_REF_NAME}"
+
+          awk -v version="$VERSION" '
+            $0 == version {
+              found = 1
+              next
+            }
+
+            found && /^v[0-9]/ {
+              exit
+            }
+
+            found {
+              print
+            }
+          ' CHANGELOG > release-notes.md
+
+          if [ ! -s release-notes.md ]; then
+            echo "No changelog entry found for $VERSION"
+            exit 1
+          fi
+
+      - name: Create release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*
+          body_path: release-notes.md
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
