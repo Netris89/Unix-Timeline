@@ -1,6 +1,36 @@
 Unix Timeline | CHANGELOG
 ===================================================
 
-26.11 (2026.11.15)
+v0.4
+
+- Add Amdahl UTS
+- Add RISC iX
+- Add RISC/os
+- Add DYNIX/ptx
+
+v0.3
+
+- Add UNIX/32V
+- Add date of Venix version
+- Add DG/UX
+- Add SINIX
+- Add UNICOS version history
+
+v0.2.1
+
+- Fix CSV formatting
+- Fix NEWS-OS version dates
+
+v0.2
+
+- Add ULTRIX version history
+- Add 386/ix
+- Add Venix
+- Add NEWS-OS
+- Change IRIX and IWSD colour to be the one of Silicon Graphics
+- Change A/UX colour to be different than the one of AIX
+- Change style of the connections
+
+v0.1
 
 This is the first version. I added a lot of historical Unix. Since it's based on [FabioLolix BSD-TimeLine](https://github.com/FabioLolix/BSD-Timeline), I trimmed some of the systems there.
