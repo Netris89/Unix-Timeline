@@ -53,7 +53,7 @@
 "N","DYNIX/ptx","#a83949","System V","1992","2001",,"https://en.wikipedia.org/wiki/DYNIX","2.0","1993",,"4.0","1996",,"","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "# The 1st version name is left blank intentionally so that it doesn't overlap with the name OpenSolaris or the name of the next version",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"N","OpenSolaris","#808084","Solaris","2008.05.05","2014.06.01","images/opensolaris-icon.png","https://en.wikipedia.org/wiki/OpenSolaris"," ","2008.11.25",,"2009.06","2009.06.01",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"N","OpenSolaris","#808084","Solaris","2005.06.14","2014.06.01","images/opensolaris-icon.png","https://en.wikipedia.org/wiki/OpenSolaris"," ","2008.11.25",,"2009.06","2009.06.01",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "N","illumos","#ff430f","OpenSolaris","2010",,"images/illumos-icon.png","https://en.wikipedia.org/wiki/illumos",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
