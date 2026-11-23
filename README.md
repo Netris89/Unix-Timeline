@@ -38,7 +38,7 @@ For Arch users, use the AUR: https://aur.archlinux.org/packages/gnuclad/
 
 After you have installed gnuclad, to build just the SVG, run:
 ```sh 
-gnuclad bsdt.csv SVG unxt.conf
+gnuclad unxt.csv SVG unxt.conf
 ```
 
 You can run the script `build.sh` to build the SVG, PNG, and the tarball
