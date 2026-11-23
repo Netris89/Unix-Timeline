@@ -1,6 +1,11 @@
 Unix Timeline | CHANGELOG
 ===================================================
 
+v0.4.1
+
+- Change OpenSolaris release date to use the date when Sun open sourced the source code and not the 1st release
+- Fix AIX 7.2 release date
+
 v0.4
 
 - Add Amdahl UTS
