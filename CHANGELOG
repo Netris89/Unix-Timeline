@@ -1,6 +1,11 @@
 Unix Timeline | CHANGELOG
 ===================================================
 
+v0.4.2
+
+- Restore copyright attributions and mentions that I mistakenly removed
+- Change background colour to a light grey to make OpenBSD's line more visible
+
 v0.4.1
 
 - Change OpenSolaris release date to use the date when Sun open sourced the source code and not the 1st release
