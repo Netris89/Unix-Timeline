@@ -1,11 +1,14 @@
 # Unix Timeline | README
 
+* Copyright (C) 2010 Donjan Rodic
+* Copyright (C) 2016-2022 Fabio Loli
 * Copyright (C) 2026 Ludovic Hansen
 
 Released under a BSD 2-clause like license as found in the LICENSE file
 
 Based on [FabioLolix' BSD-timeline](https://github.com/FabioLolix/BSD-timeline)
 
+Original source: [https://futurist.se/gldt/2010/09/20/bsd-timeline-up-for-grabs/](https://futurist.se/gldt/2010/09/20/bsd-timeline-up-for-grabs/)
 
 ## Goal
 
