@@ -1,6 +1,12 @@
 Unix Timeline | CHANGELOG
 ===================================================
 
+v0.5
+
+- Add 1st OpenSolaris version and put name of second on the timeline
+- Add info-connector on the graph
+- Add UXP/DS
+
 v0.4.2
 
 - Restore copyright attributions and mentions that I mistakenly removed
